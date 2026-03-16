@@ -7,11 +7,6 @@ This repository contains the backend and frontend code for the Tutedude project 
 - **Frontend:** http://3.110.126.20:3000
 - **Backend:** http://3.110.126.20:5000
 
-## Screenshot
-
-![Frontend Screenshot](frontend-screenshot.png)
-![Backend Screenshot](backend-screenshot.png)
-
 ## Project Structure
 
 - backend/
