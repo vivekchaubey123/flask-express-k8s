@@ -1,34 +1,48 @@
-# Tutedude Project
+# Kubernetes Deployment (Minikube)
 
-This repository contains the backend and frontend code for the Tutedude project deployed on AWS ECS.
+This repository contains the backend and frontend code deployed using Kubernetes (Minikube).
 
-## Deployment URLs
+## Deployment
 
-- **Frontend:** http://3.110.126.20:3000
-- **Backend:** http://3.110.126.20:5000
-- 
+- **Frontend:** Accessible via `minikube service frontend-service`
+- **Backend:** Runs inside Kubernetes cluster (service exposed internally)
+
 ## Screenshots
 
+### Minikube Start
+![Minikube Start](minikube-start.PNG)
+
+### Nodes
+![Nodes](kubectl-nodes.PNG)
+
+### Pods
+![Pods](kubectl-pods.PNG)
+
+### Services
+![Services](kubectl-svc.PNG)
+
+### Minikube Service
+![Service](minikube-service.PNG)
+
+### Application Output
+![Output](minikube-output.PNG)
+
 ### Frontend
-![Frontend Screenshot](frontend-screenshot.PNG)
+![Frontend](frontend-screenshot.PNG)
 
 ### Backend
-![Backend Screenshot](backend-screenshot.PNG)
+![Backend](backend-screenshot.PNG)
 
 ## Project Structure
 
 - backend/
-  - app.py
-  - dockerfile
-  - requirements.txt
 - frontend/
-  - dockerfile
-  - index.js
-  - package.json
+- k8s-manifests/
+  - backend-deployment.yaml
+  - frontend-deployment.yaml
 
 ## Notes
 
-- Backend: Flask app, port 5000  
-- Frontend: Express app, port 3000  
-- Docker images stored in AWS ECR  
-- ECS Fargate launch type used
+- Backend: Flask app  
+- Frontend: Express app  
+- Deployment: Kubernetes (Minikube)  
