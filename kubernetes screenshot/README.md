@@ -10,22 +10,22 @@ This repository contains the backend and frontend code deployed using Kubernetes
 ## Screenshots
 
 ### Minikube Start
-![Minikube Start](minikube start.PNG)
+![Minikube Start](minikube-start.PNG)
 
 ### Nodes
-![Nodes](kubectl nodes.PNG)
+![Nodes](kubectl-nodes.PNG)
 
 ### Pods
-![Pods](kubectl pods.PNG)
+![Pods](kubectl-pods.PNG)
 
 ### Services
-![Services](kubectl svc.PNG)
+![Services](kubectl-svc.PNG)
 
 ### Minikube Service
-![Service](minikube service.PNG)
+![Service](minikube-service.PNG)
 
 ### Application Output
-![Output](minikube output.PNG)
+![Output](minikube-output.PNG)
 
 ### Frontend
 ![Frontend](frontend-screenshot.PNG)
